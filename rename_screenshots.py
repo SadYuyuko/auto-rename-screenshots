@@ -14,7 +14,7 @@ SELF_NAME = os.path.basename(sys.argv[0]).lower()
 
 def show_message(text):
     if getattr(sys, "frozen", False):
-        ctypes.windll.user32.MessageBoxW(0, text, "自动重命名", 0x10)
+        ctypes.windll.user32.MessageBoxW(0, text, "auto-rename", 0x10)
     else:
         print(text)
 
