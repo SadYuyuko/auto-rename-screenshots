@@ -5,7 +5,7 @@ import sys
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 MAIN_SCRIPT = os.path.join(SCRIPT_DIR, "rename_screenshots.py")
-EXE_NAME = "自动重命名.exe"
+EXE_NAME = "auto-rename.exe"
 SPEC_FILE = os.path.join(SCRIPT_DIR, os.path.splitext(EXE_NAME)[0] + ".spec")
 BUILD_DIR = os.path.join(SCRIPT_DIR, "build")
 
